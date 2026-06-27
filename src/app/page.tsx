@@ -50,29 +50,9 @@ export default function HomePage() {
         {/* Content */}
         <div className="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
           <div className="max-w-2xl">
-            {/* Brand logo */}
-            <div className="mb-8">
-              <Image
-                src="/images/hero_logo.png"
-                alt="Beaconherm"
-                width={220}
-                height={64}
-                sizes="(max-width: 768px) 160px, 220px"
-                className="h-14 md:h-16 w-auto max-w-xs"
-              />
-            </div>
-
-            {/* Tagline badge */}
-            <div className="mt-6">
-              <Image
-                src="/images/hero_badge.png"
-                alt="Guiding Light & Shelter for Every Outdoor Journey"
-                width={400}
-                height={80}
-                sizes="(max-width: 768px) 280px, 400px"
-                className="h-14 md:h-16 w-auto max-w-full"
-              />
-            </div>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight tracking-tight">
+              Tents built for the wild places.
+            </h1>
 
             <p className="mt-6 text-lg md:text-xl text-stone-200 max-w-xl leading-relaxed">
               From thru-hikes on the Appalachian Trail to summer campouts with the family,
