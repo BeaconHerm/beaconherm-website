@@ -50,9 +50,16 @@ export default function HomePage() {
         {/* Content */}
         <div className="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
           <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white/90 text-sm font-medium mb-6">
-              <Mountain className="h-4 w-4 text-moss-400" />
-              <span>Designed in Boulder, Colorado</span>
+            {/* Brand logo */}
+            <div className="mb-8">
+              <Image
+                src="/images/hero_logo.png"
+                alt="Beaconherm"
+                width={220}
+                height={64}
+                sizes="(max-width: 768px) 160px, 220px"
+                className="h-14 md:h-16 w-auto max-w-xs"
+              />
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight tracking-tight">
