@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Mountain, Mail, Phone, MapPin } from 'lucide-react';
+import Image from 'next/image';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import { contactInfo, socialLinks } from '@/data/products';
 import {
   Instagram,
@@ -45,8 +46,18 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2">
-              <Mountain className="h-7 w-7 text-moss-400" />
-              <span className="font-bold text-lg text-white tracking-wide">Beaconherm</span>
+              <div className="relative h-12 w-12">
+                <Image
+                  src="/images/logo.png"
+                  alt="Beaconherm logo"
+                  fill
+                  sizes="48px"
+                  className="object-contain"
+                />
+              </div>
+              <span className="font-bold text-lg text-white tracking-wide">
+                Beaconherm
+              </span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-stone-400 max-w-sm">
               Premium outdoor tents designed in Boulder, Colorado. Built for thru-hikers,

@@ -1,8 +1,9 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { Mountain, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 
@@ -44,15 +45,19 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <Mountain
-              className={cn(
-                'h-7 w-7 transition-colors',
-                scrolled ? 'text-forest-700' : 'text-white'
-              )}
-            />
+            <div className="relative h-10 w-10 md:h-12 md:w-12">
+              <Image
+                src="/images/logo.png"
+                alt="Beaconherm logo"
+                fill
+                priority
+                sizes="48px"
+                className="object-contain"
+              />
+            </div>
             <span
               className={cn(
-                'font-bold text-lg tracking-wide transition-colors',
+                'font-bold text-lg tracking-wide transition-colors hidden sm:inline-block',
                 scrolled ? 'text-stone-900' : 'text-white'
               )}
             >
