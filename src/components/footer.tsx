@@ -49,14 +49,14 @@ export function Footer() {
               <div className="relative h-12 w-12">
                 <Image
                   src="/images/logo.png"
-                  alt="Beaconherm logo"
+                  alt="BeaconHerm logo"
                   fill
                   sizes="48px"
                   className="object-contain"
                 />
               </div>
               <span className="font-bold text-lg text-white tracking-wide">
-                Beaconherm
+                BeaconHerm
               </span>
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-stone-400 max-w-sm">
@@ -147,7 +147,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-forest-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-stone-500">
-          <p>© {new Date().getFullYear()} Beaconherm Limited. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} BeaconHerm Limited. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-stone-300 transition-colors">
               Privacy Policy

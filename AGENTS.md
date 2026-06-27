@@ -1,8 +1,8 @@
-# AGENTS.md — Beaconherm Limited
+# AGENTS.md — BeaconHerm Limited
 
 ## Project Overview
 
-A professional English-only product showcase website for **Beaconherm Limited**, an outdoor tent brand targeting the US market. Built with Next.js 16 (App Router), TypeScript, Tailwind CSS 4, and shadcn/ui components.
+A professional English-only product showcase website for **BeaconHerm Limited**, an outdoor tent brand targeting the US market. Built with Next.js 16 (App Router), TypeScript, Tailwind CSS 4, and shadcn/ui components.
 
 **Key characteristics:**
 - Static Site Generation (SSG) for fast loading and SEO

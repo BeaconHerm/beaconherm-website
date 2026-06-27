@@ -22,7 +22,7 @@ import { contactInfo, socialLinks } from '@/data/products';
 export const metadata: Metadata = {
   title: 'Contact Us — Get in Touch',
   description:
-    'Have questions about our tents, warranty, or an order? Reach out to the Beaconherm team. We reply to every email within one business day.',
+    'Have questions about our tents, warranty, or an order? Reach out to the BeaconHerm team. We reply to every email within one business day.',
 };
 
 export const dynamic = 'force-static';
@@ -289,7 +289,7 @@ export default function ContactPage() {
       <section className="relative h-72 md:h-80 overflow-hidden">
         <Image
           src="/contact/boulder-skyline.jpg"
-          alt="Boulder, Colorado flatirons — home of Beaconherm"
+          alt="Boulder, Colorado flatirons — home of BeaconHerm"
           fill
           sizes="100vw"
           className="object-cover"

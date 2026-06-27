@@ -6,7 +6,7 @@ import { teamMembers } from '@/data/products';
 export const metadata: Metadata = {
   title: 'About Us — Our Story, Mission & Team',
   description:
-    'Meet Beaconherm Limited — founded in Boulder, Colorado by lifelong outdoors people. Learn about our mission, values, and the team behind every tent we build.',
+    'Meet BeaconHerm Limited — founded in Boulder, Colorado by lifelong outdoors people. Learn about our mission, values, and the team behind every tent we build.',
 };
 
 export const dynamic = 'force-static';
@@ -40,7 +40,7 @@ const values = [
 
 const milestones = [
   { year: '2012', label: 'Founded in a Boulder garage', desc: 'Marcus Hale builds the first ten Summit Pro tents by hand.' },
-  { year: '2015', label: 'First retail partnership', desc: 'Beaconherm launches in 20 outdoor shops across Colorado and Utah.' },
+  { year: '2015', label: 'First retail partnership', desc: 'BeaconHerm launches in 20 outdoor shops across Colorado and Utah.' },
   { year: '2018', label: 'Expedition line launches', desc: 'The Northridge series becomes the tent of choice for alpine guides.' },
   { year: '2021', label: 'bluesign® certified supply chain', desc: 'Every fabric mill and factory in our supply chain earns bluesign® approval.' },
   { year: '2024', label: 'Gear Take-Back Program', desc: 'We launch a repair-and-recycle program to keep tents out of landfills.' },
@@ -54,7 +54,7 @@ export default function AboutPage() {
         <div className="absolute inset-0">
           <Image
             src="/about/about-hero.jpg"
-            alt="Beaconherm team setting up tents at a mountain basecamp"
+            alt="BeaconHerm team setting up tents at a mountain basecamp"
             fill
             priority
             sizes="100vw"
@@ -64,7 +64,7 @@ export default function AboutPage() {
         </div>
         <div className="relative z-10 h-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center text-center">
           <span className="text-sm font-semibold text-moss-400 tracking-wide uppercase">
-            About Beaconherm
+            About BeaconHerm
           </span>
           <h1 className="mt-3 text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight">
             Gear built by people{' '}
@@ -85,7 +85,7 @@ export default function AboutPage() {
               <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/about/founder-story.jpg"
-                  alt="Marcus Hale, Beaconherm founder, on a mountain ridge"
+                  alt="Marcus Hale, BeaconHerm founder, on a mountain ridge"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
@@ -106,7 +106,7 @@ export default function AboutPage() {
               </h2>
               <div className="mt-6 space-y-4 text-stone-600 leading-relaxed">
                 <p>
-                  Beaconherm started with a winter traverse of Wyoming&apos;s Wind River
+                  BeaconHerm started with a winter traverse of Wyoming&apos;s Wind River
                   Range. Our founder, Marcus Hale — a former park ranger and lifelong
                   mountaineer — grew frustrated with the options on the market: cheap
                   tents that failed in storms, and premium ones that cost a month&apos;s rent.
@@ -117,7 +117,7 @@ export default function AboutPage() {
                   spread, and a year later we outgrew the garage.
                 </p>
                 <p>
-                  Today, Beaconherm is still headquartered in Boulder, Colorado. We&apos;re a
+                  Today, BeaconHerm is still headquartered in Boulder, Colorado. We&apos;re a
                   small team of climbers, hikers, rangers, and parents — and every tent we
                   ship is one we&apos;d take on our own trips.
                 </p>
@@ -266,7 +266,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Users className="h-10 w-10 text-moss-400 mx-auto" />
           <h2 className="mt-4 text-3xl md:text-4xl font-bold tracking-tight">
-            Join the Beaconherm community.
+            Join the BeaconHerm community.
           </h2>
           <p className="mt-4 text-stone-300 max-w-xl mx-auto">
             Sign up for trail reports, new gear drops, and stories from the field. No

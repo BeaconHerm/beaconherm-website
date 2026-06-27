@@ -6,7 +6,7 @@ import { Filter, Grid3X3 } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'All Tents — Backpacking, Family Camping & Expedition',
   description:
-    'Browse the full Beaconherm tent collection. From ultralight backpacking shelters to family cabin tents and 4-season expedition gear. Free shipping over $150.',
+    'Browse the full BeaconHerm tent collection. From ultralight backpacking shelters to family cabin tents and 4-season expedition gear. Free shipping over $150.',
 };
 
 // SSG: generate static page at build time

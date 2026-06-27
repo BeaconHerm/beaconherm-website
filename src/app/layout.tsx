@@ -5,11 +5,11 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Beaconherm Limited — Premium Outdoor Tents',
-    template: '%s | Beaconherm',
+    default: 'BeaconHerm Limited — Premium Outdoor Tents',
+    template: '%s | BeaconHerm',
   },
   description:
-    'Beaconherm Limited designs and builds premium outdoor tents for backpacking, family camping, and alpine expeditions. Field-tested in the Rocky Mountains. Built to last a lifetime.',
+    'BeaconHerm Limited designs and builds premium outdoor tents for backpacking, family camping, and alpine expeditions. Field-tested in the Rocky Mountains. Built to last a lifetime.',
   keywords: [
     'outdoor tents',
     'backpacking tent',
@@ -17,18 +17,18 @@ export const metadata: Metadata = {
     '4 season tent',
     'expedition tent',
     'ultralight tent',
-    'Beaconherm',
+    'BeaconHerm',
     'camping gear',
     'hiking equipment',
   ],
-  authors: [{ name: 'Beaconherm Limited', url: 'https://beaconherm.com' }],
+  authors: [{ name: 'BeaconHerm Limited', url: 'https://beaconherm.com' }],
   metadataBase: new URL('https://beaconherm.com'),
   openGraph: {
-    title: 'Beaconherm Limited — Premium Outdoor Tents',
+    title: 'BeaconHerm Limited — Premium Outdoor Tents',
     description:
       'Premium tents for thru-hikers, families, and alpinists. Field-tested in the Rockies. Backed by our Ironclad Lifetime Warranty.',
     url: 'https://beaconherm.com',
-    siteName: 'Beaconherm',
+    siteName: 'BeaconHerm',
     locale: 'en_US',
     type: 'website',
     images: [
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
         url: '/og/hero.jpg',
         width: 1200,
         height: 630,
-        alt: 'Beaconherm tent pitched at sunset in the mountains',
+        alt: 'BeaconHerm tent pitched at sunset in the mountains',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Beaconherm — Premium Outdoor Tents',
+    title: 'BeaconHerm — Premium Outdoor Tents',
     description:
       'Tents built for the real backcountry. Backpacking, family camping, and expedition models.',
   },

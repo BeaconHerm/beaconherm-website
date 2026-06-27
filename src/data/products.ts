@@ -221,7 +221,7 @@ export const teamMembers: TeamMember[] = [
     id: 'team-001',
     name: 'Marcus Hale',
     role: 'Founder & Chief Designer',
-    bio: 'Former Park Ranger and lifelong mountaineer. Marcus founded Beaconherm in 2012 after a winter traverse of the Wind River Range convinced him the market needed better tents at fair prices.',
+    bio: 'Former Park Ranger and lifelong mountaineer. Marcus founded BeaconHerm in 2012 after a winter traverse of the Wind River Range convinced him the market needed better tents at fair prices.',
     avatar: '/team/marcus-hale.jpg',
   },
   {
@@ -242,7 +242,7 @@ export const teamMembers: TeamMember[] = [
     id: 'team-004',
     name: 'Priya Patel',
     role: 'Sustainability Lead',
-    bio: 'Priya ensures every Beaconherm tent is built to last — and built responsibly. She oversees our bluesign® supply chain, recycled materials program, and gear take-back initiative.',
+    bio: 'Priya ensures every BeaconHerm tent is built to last — and built responsibly. She oversees our bluesign® supply chain, recycled materials program, and gear take-back initiative.',
     avatar: '/team/priya-patel.jpg',
   },
 ];

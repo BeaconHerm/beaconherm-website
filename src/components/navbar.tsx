@@ -48,7 +48,7 @@ export function Navbar() {
             <div className="relative h-10 w-10 md:h-12 md:w-12">
               <Image
                 src="/images/logo.png"
-                alt="Beaconherm logo"
+                alt="BeaconHerm logo"
                 fill
                 priority
                 sizes="48px"
@@ -61,7 +61,7 @@ export function Navbar() {
                 scrolled ? 'text-stone-900' : 'text-white'
               )}
             >
-              Beaconherm
+              BeaconHerm
             </span>
           </Link>
 

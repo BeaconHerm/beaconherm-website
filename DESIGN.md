@@ -1,7 +1,7 @@
-# DESIGN.md — Beaconherm Limited
+# DESIGN.md — BeaconHerm Limited
 
 ## Brand & Product Context
-- **Brand**: Beaconherm Limited — an outdoor tent brand targeting the US market
+- **Brand**: BeaconHerm Limited — an outdoor tent brand targeting the US market
 - **Product category**: Premium outdoor tents (backpacking, family camping, expedition)
 - **Audience**: Hikers, campers, backpackers, families, and outdoor enthusiasts across the United States
 - **Tone**: Trustworthy, rugged, inspiring, modern, clean
@@ -35,7 +35,7 @@ Brand anchor: **forest green + mountain stone + sunset orange** — evokes natio
 ### Typography
 - **Headings**: `Inter` (600 / 700 weight) — strong, modern, clean sans-serif
 - **Body**: `Inter` (400 / 500 weight) — excellent readability for product descriptions
-- **Display / Brand wordmark**: custom-styled `Inter` with slightly wider letter-spacing for "Beaconherm"
+- **Display / Brand wordmark**: custom-styled `Inter` with slightly wider letter-spacing for "BeaconHerm"
 - Use `fonts.googleapis.cn` domain per performance best practice
 
 ### Spacing & Radius

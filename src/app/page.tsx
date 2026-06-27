@@ -38,7 +38,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <Image
             src="/hero/hero-mountain-camp.jpg"
-            alt="Beaconherm tent pitched at golden hour in the Rocky Mountains"
+            alt="BeaconHerm tent pitched at golden hour in the Rocky Mountains"
             fill
             priority
             sizes="100vw"
@@ -56,7 +56,7 @@ export default function HomePage() {
 
             <p className="mt-6 text-lg md:text-xl text-stone-200 max-w-xl leading-relaxed">
               From thru-hikes on the Appalachian Trail to summer campouts with the family,
-              every Beaconherm tent is engineered in the Rockies and backed by our
+              every BeaconHerm tent is engineered in the Rockies and backed by our
               Ironclad Lifetime Warranty.
             </p>
 
@@ -155,7 +155,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <span className="text-sm font-semibold text-forest-600 tracking-wide uppercase">
-              Why Beaconherm
+              Why BeaconHerm
             </span>
             <h2 className="mt-3 text-3xl md:text-4xl font-bold text-stone-900 tracking-tight">
               Gear you can trust. For life.
@@ -202,7 +202,7 @@ export default function HomePage() {
             Your next adventure starts here.
           </h2>
           <p className="mt-5 text-lg text-stone-300 max-w-2xl mx-auto">
-            Join thousands of hikers, campers, and explorers who trust Beaconherm to keep
+            Join thousands of hikers, campers, and explorers who trust BeaconHerm to keep
             them sheltered. Free shipping on orders over $150.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
