@@ -63,8 +63,7 @@ export default function HomePage() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight tracking-tight">
-              Tents built for{' '}
-              <span className="gradient-text">the wild places.</span>
+              Tents built for the wild places.
             </h1>
 
             {/* Tagline badge */}
