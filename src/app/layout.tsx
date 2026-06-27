@@ -1,55 +1,51 @@
 import type { Metadata } from 'next';
-import { Inspector } from 'react-dev-inspector';
+import { Navbar } from '@/components/navbar';
+import { Footer } from '@/components/footer';
 import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: '新应用 | 扣子编程',
-    template: '%s | 扣子编程',
+    default: 'Beaconherm Limited — Premium Outdoor Tents',
+    template: '%s | Beaconherm',
   },
   description:
-    '扣子编程是一款一站式云端 Vibe Coding 开发平台。通过对话轻松构建智能体、工作流和网站，实现从创意到上线的无缝衔接。',
+    'Beaconherm Limited designs and builds premium outdoor tents for backpacking, family camping, and alpine expeditions. Field-tested in the Rocky Mountains. Built to last a lifetime.',
   keywords: [
-    '扣子编程',
-    'Coze Code',
-    'Vibe Coding',
-    'AI 编程',
-    '智能体搭建',
-    '工作流搭建',
-    '网站搭建',
-    '网站部署',
-    '全栈开发',
-    'AI 工程师',
+    'outdoor tents',
+    'backpacking tent',
+    'family camping tent',
+    '4 season tent',
+    'expedition tent',
+    'ultralight tent',
+    'Beaconherm',
+    'camping gear',
+    'hiking equipment',
   ],
-  authors: [{ name: 'Coze Code Team', url: 'https://code.coze.cn' }],
-  generator: 'Coze Code',
-  // icons: {
-  //   icon: '',
-  // },
+  authors: [{ name: 'Beaconherm Limited', url: 'https://beaconherm.com' }],
+  metadataBase: new URL('https://beaconherm.com'),
   openGraph: {
-    title: '扣子编程 | 你的 AI 工程师已就位',
+    title: 'Beaconherm Limited — Premium Outdoor Tents',
     description:
-      '我正在使用扣子编程 Vibe Coding，让创意瞬间上线。告别拖拽，拥抱心流。',
-    url: 'https://code.coze.cn',
-    siteName: '扣子编程',
-    locale: 'zh_CN',
+      'Premium tents for thru-hikers, families, and alpinists. Field-tested in the Rockies. Backed by our Ironclad Lifetime Warranty.',
+    url: 'https://beaconherm.com',
+    siteName: 'Beaconherm',
+    locale: 'en_US',
     type: 'website',
-    // images: [
-    //   {
-    //     url: '',
-    //     width: 1200,
-    //     height: 630,
-    //     alt: '扣子编程 - 你的 AI 工程师',
-    //   },
-    // ],
+    images: [
+      {
+        url: '/og/hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Beaconherm tent pitched at sunset in the mountains',
+      },
+    ],
   },
-  // twitter: {
-  //   card: 'summary_large_image',
-  //   title: 'Coze Code | Your AI Engineer is Here',
-  //   description:
-  //     'Build and deploy full-stack applications through AI conversation. No env setup, just flow.',
-  //   // images: [''],
-  // },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Beaconherm — Premium Outdoor Tents',
+    description:
+      'Tents built for the real backcountry. Backpacking, family camping, and expedition models.',
+  },
   robots: {
     index: true,
     follow: true,
@@ -61,13 +57,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const isDev = process.env.COZE_PROJECT_ENV === 'DEV';
-
   return (
     <html lang="en">
-      <body className={`antialiased`}>
-        {isDev && <Inspector />}
-        {children}
+      <body className="min-h-screen flex flex-col">
+        <Navbar />
+        <main className="flex-1 pt-16 md:pt-20">{children}</main>
+        <Footer />
       </body>
     </html>
   );
