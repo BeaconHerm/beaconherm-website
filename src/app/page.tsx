@@ -60,7 +60,11 @@ export default function HomePage() {
               <span className="gradient-text">the wild places.</span>
             </h1>
 
-            <p className="mt-6 text-lg md:text-xl text-stone-200 max-w-xl leading-relaxed">
+            <p className="mt-5 text-xl md:text-2xl font-medium text-moss-400 tracking-wide">
+              Guiding Light &amp; Shelter for Every Outdoor Journey
+            </p>
+
+            <p className="mt-5 text-lg md:text-xl text-stone-200 max-w-xl leading-relaxed">
               From thru-hikes on the Appalachian Trail to summer campouts with the family,
               every Beaconherm tent is engineered in the Rockies and backed by our
               Ironclad Lifetime Warranty.
