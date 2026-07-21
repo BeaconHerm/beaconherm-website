@@ -11,6 +11,7 @@ export const products: Product[] = [
     price: 449,
     compareAtPrice: 549,
     category: 'backpacking',
+    amazonUrl: 'https://www.amazon.com/dp/B0DUMMY001?tag=beaconherm-20',
     images: [
       { src: '/tents/summit-pro-2p.jpg', alt: 'Summit Pro 2P tent pitched on a mountain ridge', primary: true },
       { src: '/tents/summit-pro-2p-interior.jpg', alt: 'Summit Pro 2P interior view' },
@@ -47,6 +48,7 @@ export const products: Product[] = [
       'Create memories that last a lifetime in the Evergreen Family 4P. With a 6 ft peak height, room divider, and front porch awning, this tent transforms any campground into a cozy home base for the whole family.',
     price: 389,
     category: 'family-camping',
+    amazonUrl: 'https://www.amazon.com/dp/B0DUMMY002?tag=beaconherm-20',
     images: [
       { src: '/tents/evergreen-family-4p.jpg', alt: 'Evergreen Family 4P tent at a sunlit campsite', primary: true },
       { src: '/tents/evergreen-family-4p-living.jpg', alt: 'Evergreen Family 4P interior with families' },
@@ -83,6 +85,7 @@ export const products: Product[] = [
       'Built for the harshest conditions on the planet. The Northridge Expedition 3P features a geodesic dome structure, 40D silicone-coated nylon fly, and reinforced snow-shedding geometry trusted by guides from the Rockies to the Andes.',
     price: 799,
     category: 'expedition',
+    amazonUrl: 'https://www.amazon.com/dp/B0DUMMY003?tag=beaconherm-20',
     images: [
       { src: '/tents/northridge-expedition-3p.jpg', alt: 'Northridge Expedition 3P in snowy alpine terrain', primary: true },
       { src: '/tents/northridge-expedition-3p-snow.jpg', alt: 'Northridge Expedition 3P covered in snow' },
@@ -119,6 +122,7 @@ export const products: Product[] = [
       'The Trailblazer 1P is our lightest shelter yet — under 700 grams without poles. Designed for solo hikers who count every gram, it uses your trekking poles for structure and packs down to the size of a water bottle.',
     price: 299,
     category: 'backpacking',
+    amazonUrl: 'https://www.amazon.com/dp/B0DUMMY004?tag=beaconherm-20',
     images: [
       { src: '/tents/trailblazer-1p.jpg', alt: 'Trailblazer 1P ultralight tent in the backcountry', primary: true },
     ],
@@ -153,6 +157,7 @@ export const products: Product[] = [
       'Your home away from home. The Basecamp Cabin 6P features near-vertical walls, a screen room, and enough space for two queen air mattresses. Perfect for family reunions, scout trips, and extended car-camping adventures.',
     price: 599,
     category: 'family-camping',
+    amazonUrl: 'https://www.amazon.com/dp/B0DUMMY005?tag=beaconherm-20',
     images: [
       { src: '/tents/basecamp-cabin-6p.jpg', alt: 'Basecamp Cabin 6P luxury family tent', primary: true },
     ],
@@ -188,6 +193,7 @@ export const products: Product[] = [
       'The SkyView Bivy is the ultimate insurance policy for climbers, trail runners, and solo adventurers. Weighing just 420 grams, this single-pole shelter sets up in under two minutes and provides full storm protection.',
     price: 229,
     category: 'shelter',
+    amazonUrl: 'https://www.amazon.com/dp/B0DUMMY006?tag=beaconherm-20',
     images: [
       { src: '/tents/skyview-bivy.jpg', alt: 'SkyView Bivy shelter on a rocky summit', primary: true },
     ],

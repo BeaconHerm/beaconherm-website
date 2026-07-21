@@ -29,6 +29,7 @@ export interface Product {
   badges?: ('New' | 'Best Seller' | 'Sale')[];
   inventory: number;
   createdAt: string;
+  amazonUrl?: string; // Amazon affiliate link
 }
 
 export interface TeamMember {
