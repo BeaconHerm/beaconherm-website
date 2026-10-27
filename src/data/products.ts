@@ -12,6 +12,7 @@ export const products: Product[] = [
     compareAtPrice: 549,
     category: 'backpacking',
     amazonUrl: 'https://www.amazon.com/dp/B0DUMMY001?tag=beaconherm-20',
+    videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_1',
     images: [
       { src: '/tents/summit-pro-2p.jpg', alt: 'Summit Pro 2P tent pitched on a mountain ridge', primary: true },
       { src: '/tents/summit-pro-2p-interior.jpg', alt: 'Summit Pro 2P interior view' },
@@ -49,6 +50,7 @@ export const products: Product[] = [
     price: 389,
     category: 'family-camping',
     amazonUrl: 'https://www.amazon.com/dp/B0DUMMY002?tag=beaconherm-20',
+    videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_2',
     images: [
       { src: '/tents/evergreen-family-4p.jpg', alt: 'Evergreen Family 4P tent at a sunlit campsite', primary: true },
       { src: '/tents/evergreen-family-4p-living.jpg', alt: 'Evergreen Family 4P interior with families' },
@@ -86,6 +88,7 @@ export const products: Product[] = [
     price: 799,
     category: 'expedition',
     amazonUrl: 'https://www.amazon.com/dp/B0DUMMY003?tag=beaconherm-20',
+    videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_3',
     images: [
       { src: '/tents/northridge-expedition-3p.jpg', alt: 'Northridge Expedition 3P in snowy alpine terrain', primary: true },
       { src: '/tents/northridge-expedition-3p-snow.jpg', alt: 'Northridge Expedition 3P covered in snow' },
@@ -123,6 +126,7 @@ export const products: Product[] = [
     price: 299,
     category: 'backpacking',
     amazonUrl: 'https://www.amazon.com/dp/B0DUMMY004?tag=beaconherm-20',
+    videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_4',
     images: [
       { src: '/tents/trailblazer-1p.jpg', alt: 'Trailblazer 1P ultralight tent in the backcountry', primary: true },
     ],
@@ -158,6 +162,7 @@ export const products: Product[] = [
     price: 599,
     category: 'family-camping',
     amazonUrl: 'https://www.amazon.com/dp/B0DUMMY005?tag=beaconherm-20',
+    videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_5',
     images: [
       { src: '/tents/basecamp-cabin-6p.jpg', alt: 'Basecamp Cabin 6P luxury family tent', primary: true },
     ],
@@ -194,6 +199,7 @@ export const products: Product[] = [
     price: 229,
     category: 'shelter',
     amazonUrl: 'https://www.amazon.com/dp/B0DUMMY006?tag=beaconherm-20',
+    videoUrl: 'https://www.youtube.com/embed/YOUR_VIDEO_ID_6',
     images: [
       { src: '/tents/skyview-bivy.jpg', alt: 'SkyView Bivy shelter on a rocky summit', primary: true },
     ],

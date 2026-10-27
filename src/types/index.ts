@@ -30,6 +30,7 @@ export interface Product {
   inventory: number;
   createdAt: string;
   amazonUrl?: string; // Amazon affiliate link
+  videoUrl?: string; // YouTube embed URL for setup tutorial
 }
 
 export interface TeamMember {
